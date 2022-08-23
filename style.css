@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Righteous&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-size:100%;
+    font-family: 'Open Sans', sans-serif;
+    background: url("background2.jpg");
+    color: white;
+}
+.cabecalho1{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-around;
+    gap:500px;
+    padding: 24px;
+    background: rgba(72, 100, 109, 0.873);
+    color: rgb(255, 255, 255);
+    font-weight: bold; 
+}
+.cabecalho1-images{
+    display: flex;
+    gap:30px;
+}
+.cabecalho1-fotofacebook{
+    width: 60px;
+    height: 55px;
+}
+.cabecalho1-fotofacebook:hover{
+    transform: translateY(-8px);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.cabecalho1-fotoinstagram{
+    width: 80px;
+    height: 55px;
+}
+.cabecalho1-fotoinstagram:hover{
+    transform: translateY(-8px);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.cabecalho2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid rgba(72, 100, 109, 0.873);
+    font-weight: bold;
+}
+.cabecalho2-fotoempresa{
+    width: 300px;
+}
+.cabecalho2 nav{
+    display: flex;
+    gap: 24px;
+}
+.cabecalho2 nav a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.principal{
+    margin-top: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.principal1{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-self: flex-start; 
+    margin-top: 80px;
+    margin-left: 220px;
+}
+.principal1 h1{
+    font-size: 40px;
+}
+.principal2{
+    margin-right: 400px;
+    margin-top: 30px;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.principal2-titulo1{
+    margin-bottom:10px;
+}
+.principal2-perguntas1{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.principal2-perguntas1 input{
+    width:300px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid transparent;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.principal2-titulo2{
+    margin-bottom:4px;
+    font-size: 20px;
+}
+.form2-caixa{
+    margin-bottom: 10px;
+}
+button{
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid transparent;
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size:20px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    width: 100%;
+}
+button:hover{
+    border: 2px solid green;
+    background-color: rgb(190, 249, 190);
+    cursor:pointer;
+}
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0px;
+    background: rgba(72, 100, 109, 0.873);
+    color: rgb(255, 255, 255);
+}
+.rodape-contato{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+.rodape img{
+    height: 50px;
+    width: 50px;
+}
+.rodape-contato:hover{
+    transform: translateY(-8px);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
